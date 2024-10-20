@@ -70,6 +70,7 @@ I developed the core functionality of a photo editor using C. The project allowe
 This project implements various image processing operations, including reading, selecting, cropping, applying filters, and saving images. Below is a detailed explanation of how each feature works:
 
 Image Reading
+
 I used two functions to read images, one for binary files and another for ASCII files. If the magic word indicated P4, P5, or P6 (binary formats), I used fread to efficiently store the data in an unsigned char matrix. For ASCII formats, I used fscanf. For PPM images, I multiplied the number of columns by 3 to handle the R, G, and B channels properly. Once read, the files were closed to prevent memory leaks.
 
 SELECT Command
