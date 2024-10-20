@@ -1,4 +1,4 @@
-//312CA Celescu Rares Andrei
+//Celescu Rares
 
 #include <stdio.h>
 #include <string.h>
