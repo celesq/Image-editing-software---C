@@ -100,5 +100,5 @@ In the save function, I checked the file format and updated the magic word accor
   ## EXIT Function
 The EXIT command stopped the main loop by setting the continue variable to false, and all allocated memory used for image processing was freed.
 
-##Checker
+  ## Checker
 Implemented a checker for the functionalities of the project, with over 50+ automated tests, supporting advanced filters and workloads of 40+ operations on images up to 5MP.
